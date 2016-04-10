@@ -1,8 +1,10 @@
 # Environnement
 
 Cet environnement est destiné à supporter le déploiement des exemples fournis dans les modules suivants :
+
 - [IHM] (https://github.com/Snekkja/IHM)
 - [WebServices] (https://github.com/Snekkja/WebServices)
+
 Tous les composants ne sont pas nécessaires au bon fonctionnement de tous les projets. Néanmoins, dans un soucis de simplicité, nous installons/démarrons toujours tous les composants.
 
 ## Installation
