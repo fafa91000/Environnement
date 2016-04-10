@@ -1,0 +1,25 @@
+version: '2'
+services:
+  wildfly:
+    build: ./Wildfly
+    image: snekkja/wildfly
+    container_name: wildfly
+    depends_on:
+      - postgres
+      - elasticsearch
+    ports:
+      - "8080:8080"
+      - "9990:9990"
+  postgres:
+    build: ./PostgreSQL
+    container_name: postgres
+    image: snekkja/postgres
+    ports:
+      - "5432:5432"
+  elasticsearch:
+    build: ./ElasticSearch
+    container_name: elasticsearch
+    image: snekkja/elasticsearch
+    ports:
+      - "9200:9200"
+      - "9300:9300"

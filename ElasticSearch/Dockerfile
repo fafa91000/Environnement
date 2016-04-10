@@ -1,0 +1,2 @@
+FROM elasticsearch
+CMD ["elasticsearch"]
