@@ -11,7 +11,7 @@ Il est nécessaire de disposer de :
 - [Docker-Compose] (https://docs.docker.com/compose/install/)
 - [Git] (https://git-scm.com/) ou d'un client Git tel que [GitHub Windows] (https://desktop.github.com/) ou [SmartGit] (http://www.syntevo.com/smartgit/)
 
-## Récupérer le projet
+## Récupération de l'environnement
 
 #### Client Git
 Utilisez votre client Git pour cloner le projet en utilisant l'URL publique `https://github.com/Snekkja/Environnement.git`.
