@@ -9,7 +9,7 @@ services:
       - elasticsearch
     ports:
       - "8080:8080"
-      - "8181:8181"
+      - "8787:8787"
       - "9990:9990"
   postgres:
     build: ./PostgreSQL
