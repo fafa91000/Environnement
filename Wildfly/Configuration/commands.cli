@@ -1,0 +1,7 @@
+batch
+
+module add --name=org.postgres --resources=/opt/jboss/wildfly/tmp/postgresql-9.4.1208.jar --dependencies=javax.api,javax.transaction.api
+/subsystem=datasources/jdbc-driver=postgres:add(driver-name="postgres",driver-module-name="org.postgres",driver-class-name=org.postgresql.Driver)
+data-source add --jndi-name=java:/PostgresDS --name=PostgresDS --connection-url=jdbc:postgresql://localhost:5432/ --driver-name=postgres --user-name=postgres --password=postgres
+
+run-batch
